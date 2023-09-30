@@ -19,6 +19,10 @@ def souligner():
     texte_entry.tag_add("souligne", texte_entry.index(tk.SEL_FIRST), texte_entry.index(tk.SEL_LAST))
     texte_entry.tag_config("souligne", underline=True)
 
+def mettre_en_italique():
+    texte_entry.tag_add("italique", texte_entry.index(tk.SEL_FIRST), texte_entry.index(tk.SEL_LAST))
+    texte_entry.tag_config("italique", font=("Helvetica", taille_police.get(), "italic"))
+
 def changer_taille_police():
     nouvelle_taille = taille_police.get()
     texte_entry.configure(font=("Helvetica", nouvelle_taille))
@@ -46,6 +50,9 @@ bouton_gras.pack(side=tk.LEFT)
 
 bouton_souligne = tk.Button(boutons_frame, text="Souligner", command=souligner)
 bouton_souligne.pack(side=tk.LEFT)
+
+bouton_italique = tk.Button(boutons_frame, text="Italique", command=mettre_en_italique)
+bouton_italique.pack(side=tk.LEFT)
 
 taille_police_label = tk.Label(app, text="Taille de la police :")
 taille_police_label.pack()
