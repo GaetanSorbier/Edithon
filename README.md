@@ -26,7 +26,7 @@ Edithon est un éditeur de texte simple et minimaliste développé en langage Py
 #### Gaetan Sorbier 
 - Github: [@GaetanSorbier](https://github.com/GaetanSorbier)
 #### Wassim Maleh 
-- Github: [@Wassimaleh](https://github.com/Wassim-Maleh)
+- Github: [@Wassim-Maleh](https://github.com/Wassim-Maleh)
         
 ## ➤ License
 Distribué sous la liscence MIT. Voir : [LICENSE](LICENSE) pour plus d'informations .
