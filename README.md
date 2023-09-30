@@ -2,14 +2,10 @@
   
 Edithon est un éditeur de texte simple et minimaliste développé en langage Python par Gaetan Sorbier au courrant Septembre / Octobre 2023 . 
 
-
 ![Image](https://zupimages.net/up/23/39/hjl4.png)
         
-
-
 ## 🛠️ Langage(s)
 - [Python](https://python.org/)
-
 
 ## 🛠️ Install Dependencies    
 ```bash
@@ -18,18 +14,20 @@ Edithon est un éditeur de texte simple et minimaliste développé en langage Py
 > Python Edithon.py
 ```
 
-
 ## 🧐 Fonctions   
-- Choix de la taille de la police 
 - Pourvoir mettre le texte en gras
 - Pouvoir souligner le texte
-        
+- Choix de la taille dde la police (BUG)
 
+## Futures Mises-à-Jours 
+- Fix du bug du réglage de la police / Taille de la fenêtre
+- Ajout d'une fonction pour mettre du texte en italique . 
+        
 ## 🙇 Auteur(s)
 #### Gaetan Sorbier 
 - Github: [@GaetanSorbier](https://github.com/GaetanSorbier)
-        
-        
+#### Wassim Maleh 
+- Github: [@Wassimaleh](https://github.com) (Soon)
         
 ## ➤ License
-Distribué sous la liscence MIT. Voir: [LICENSE](LICENSE) pour plus d'informations .
+Distribué sous la liscence MIT. Voir : [LICENSE](LICENSE) pour plus d'informations .
